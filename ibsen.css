@@ -11,10 +11,10 @@
 }
 /*will be used when hovered on directions*/
 .direction:hover{
-    color: black;
-    background-color: ghostwhite;
+    color:black;
+    background-color:ghostwhite;
 }
-/*for charecter Mrs.Elvsted*/
+/*for character Mrs.Elvsted*/
 .elvsted{
     color: red;
 }
