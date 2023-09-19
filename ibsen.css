@@ -41,4 +41,8 @@ tr:nth-child(even) {
 .collapsing{
     border: solid 3px red;
     border-collapse:initial;
-    } 
+    }
+h4:hover{
+    text-shadow: 2px 2px 5px grey;
+    border:brown;
+}
