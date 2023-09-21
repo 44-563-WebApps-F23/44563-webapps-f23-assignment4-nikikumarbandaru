@@ -8,11 +8,13 @@
 .direction{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16;
+    color: black;
+    background-color: ghostwhite;
 }
 /*will be used when hovered on directions*/
 .direction:hover{
-    color:black;
-    background-color:ghostwhite;
+    color:blue;
+    background-color:aquamarine;
 }
 /*for character Mrs.Elvsted*/
 .elvsted{
@@ -22,6 +24,10 @@
 .berta{
     color: green;
 }
+
+
+
+
 th{
     border: solid 2px yellow;
     text-align:center;
@@ -44,5 +50,32 @@ tr:nth-child(even) {
     }
 h4:hover{
     text-shadow: 2px 2px 5px grey;
-    border:brown;
+    border:solid brown;
 }
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    background-color:beige;
+    border: solid;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    }
+    /*ul.navbar-horizontal li{
+        display:inline-block;
+    }*/
+   ul.navbar-horizontal li {
+    
+    color:black;
+    display:inline-block;
+    border: solid;
+    font-size:large;
+    padding:8px;
+    }
+   /* ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+    background-color:#555;
+    color:white;
+    }
+    */
